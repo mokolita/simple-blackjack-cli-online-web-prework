@@ -26,7 +26,7 @@ end
 def initial_round 
   sum = rand(1.11) + rand(1..11)
   display_card_total
-  return #{card_total}
+  
 end
 
 def hit?(card_total)
